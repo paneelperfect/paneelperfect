@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PaneelPerfect - Zonnepanelen Reinigen</title>
+  <style>
+    :root {
+      --primary-color: #0073e6;
+      --secondary-color: #005bb5;
+      --background-color: #f9fbfc;
+      --text-color: #333;
+      --accent-color: #e0f0ff;
+      --radius: 20px;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-bottom-left-radius: var(--radius);
+      border-bottom-right-radius: var(--radius);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      max-width: 140px;
+      display: block;
+      margin: 0 auto 1rem;
+      border-radius: var(--radius);
+    }
+
+    nav {
+      background: var(--secondary-color);
+      text-align: center;
+      padding: 1rem;
+      border-radius: 0 0 var(--radius) var(--radius);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    form {
+      background: var(--accent-color);
+      padding: 2rem;
+      border-radius: var(--radius);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 40px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background: var(--secondary-color);
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top-left-radius: var(--radius);
+      border-top-right-radius: var(--radius);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/A_logo_for_a_company_named_PaneelPerfect_is_displa.png" alt="PaneelPerfect logo">
+    <h1>PaneelPerfect</h1>
+    <p>Professioneel reinigen van zonnepanelen voor maximale opbrengst</p>
+  </header>
+  <nav>
+    <a href="#info">Waarom reinigen?</a>
+    <a href="#feiten">Feiten</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="info">
+    <h2>Waarom zonnepanelen reinigen?</h2>
+    <p>Zonnepanelen vangen zonlicht op om energie op te wekken. Maar na verloop van tijd hopen stof, vogelpoep, bladeren en andere verontreinigingen zich op het oppervlak op. Dit vermindert de efficiëntie van de panelen tot wel 20% of meer. Regelmatig reinigen zorgt ervoor dat je installatie maximaal blijft presteren en langer meegaat.</p>
+  </section>
+
+  <section id="feiten">
+    <h2>Algemene feiten over zonnepaneelreiniging</h2>
+    <ul>
+      <li>Reiniging 1-2 keer per jaar wordt aanbevolen, afhankelijk van locatie.</li>
+      <li>Vermindering van rendement door vervuiling kan oplopen tot 30%.</li>
+      <li>Reiniging gebeurt het liefst met osmosewater om geen krassen of vlekken achter te laten.</li>
+      <li>PaneelPerfect gebruikt uitsluitend milieuvriendelijke methodes zonder chemische middelen.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Neem contact met ons op</h2>
+    <form action="https://formspree.io/f/xqapjqej" method="POST">
+      <input type="hidden" name="_redirect" value="bedankpagina.html">
+
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="Naam" required />
+
+      <label for="email">E-mailadres:</label>
+      <input type="email" id="email" name="Email" required />
+
+      <label for="message">Bericht:</label>
+      <textarea id="message" name="Bericht" rows="5" required></textarea>
+
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PaneelPerfect. Alle rechten voorbehouden.</p>
+  </footer>
+</body>
+</html>
